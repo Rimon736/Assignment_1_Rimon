@@ -412,6 +412,7 @@ h1{
             border-color:none;
             border-style: none;
             margin: none;
+            gap: 0;
         }
         button:hover{
             background-color: rgba(0, 106, 80, 0.8);
@@ -423,6 +424,7 @@ h1{
             border-top-left-radius: 8px;
             border-bottom-left-radius: 8px;
             border-style: none;
+            gap: 0;
         }
     }
 }
