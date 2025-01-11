@@ -343,9 +343,8 @@ h1{
     #donation-form{
         display: flex;
         align-items: center;
-        align-content: center;
         justify-content: center;
-        
+        position: relative;
         #amount{
             width: 1032px;
             height: 64px;
@@ -363,7 +362,16 @@ h1{
             background-color: rgba(0, 106, 80, 1);
             color: white;
             font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            cursor: pointer;
             margin-top: 32px;
+            border-radius: 8px;
+            border-style: none;
+            text-align: center;
+            font-size: 18px;
+            position: absolute;
+            right: 45%;
+            
+
         }
         #don-but:hover{
             background-color: rgba(0, 106, 80, 0.8);
