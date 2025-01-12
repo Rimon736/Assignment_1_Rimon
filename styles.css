@@ -172,6 +172,7 @@ h1{
 }
 }
 #CABD{
+    div{
     margin: 120px auto;
     background-color: white;
     border-radius: 16px;
@@ -180,6 +181,7 @@ h1{
     background-image: url("./assets/quote-bg.png");
     background-repeat: no-repeat;
     margin-top: none;
+    }
 }
 
 #news{
@@ -407,7 +409,7 @@ h1{
     border-radius: 24px;
 
     #subscription{
-        display: inline-block;
+        display: flex;
         button{
             width: 150px;
             height: 56px;
@@ -420,8 +422,9 @@ h1{
             border-bottom-right-radius: 8px;
             border-color:none;
             border-style: none;
-            margin: none;
-            gap: 0;
+            margin-inline-start: auto;
+            gap: 0px;
+            row-gap: 0px;
         }
         button:hover{
             background-color: rgba(0, 106, 80, 0.8);
@@ -429,11 +432,12 @@ h1{
         #email{
             width: 600px;
             height: 55px;
-            margin: none;
+            margin-inline: auto;
             border-top-left-radius: 8px;
             border-bottom-left-radius: 8px;
             border-style: none;
-            gap: 0;
+            gap: 0px;
+            row-gap: 0px;
         }
     }
 }
